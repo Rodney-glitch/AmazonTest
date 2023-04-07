@@ -1,0 +1,24 @@
+{
+  "name": "amazontest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run",
+    "dashboard": "npm test -- --record --key 12345677890 --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodney-glitch/AmazonTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodney-glitch/AmazonTest/issues"
+  },
+  "homepage": "https://github.com/Rodney-glitch/AmazonTest#readme",
+  "dependencies": {
+    "cypress": "^12.9.0"
+  }
+}
